@@ -1,4 +1,4 @@
-# QU_OC_LLM
+# Bard-langchain
 BardAPI[https://github.com/acheong08/Bard]  
 LangChain[https://zenn.dev/umi_mori/books/prompt-engineer/viewer/langchain_indexes]  
 F12 for console  
