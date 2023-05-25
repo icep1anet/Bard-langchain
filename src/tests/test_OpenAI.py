@@ -10,5 +10,5 @@ from dotenv import load_dotenv
 load_dotenv()
 # openai.api_key = environ.get("OPENAI_KEY")
 
-chat = ChatOpenAI(streaming=True, callbacks=[StreamingStdOutCallbackHandler()], temperature=0)
+chat = ChatOpenAI(callbacks=[StreamingStdOutCallbackHandler()], temperature=0)
 resp = chat([HumanMessage(content="OpenAIってすごいよね")])
